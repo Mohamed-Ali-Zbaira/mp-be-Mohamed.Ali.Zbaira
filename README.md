@@ -1,5 +1,28 @@
 ## ClientController Methods
 
+### Additional Features
+
+#### Client Charts by State
+- **Description:** The project includes charts representing clients categorized by states.
+
+#### Active and Non-Active Clients in the Last 6 Months
+- **Description:** The project includes charts representing active clients (those who placed orders in the last 6 months) and non-active clients (those who haven't placed orders in the last 6 months).
+
+### Note: Angular Sorting and Searching
+For client-side sorting and searching, implement the following methods in your Angular application:
+
+#### Sort Clients by Name
+- **Method:** Angular Sorting Implementation
+- **Description:** Implement sorting functionality for clients by name on the Angular side.
+
+#### Sort Clients by Address
+- **Method:** Angular Sorting Implementation
+- **Description:** Implement sorting functionality for clients by address on the Angular side.
+
+#### Search Clients by Name
+- **Method:** Angular Searching Implementation
+- **Description:** Implement searching functionality for clients by name on the Angular side.
+
 ### 1. Get Most Loyal Client
 - **Endpoint:** `/api/clients/most-loyal`
 - **Description:** Retrieves the most loyal client.
@@ -59,18 +82,3 @@
 - **Description:** Retrieves the count of all clients.
 - **HTTP Method:** GET
 - **Response:** Returns the count of all clients.
-
-### Note: Angular Sorting and Searching
-For client-side sorting and searching, implement the following methods in your Angular application:
-
-#### Sort Clients by Name
-- **Method:** Angular Sorting Implementation
-- **Description:** Implement sorting functionality for clients by name on the Angular side.
-
-#### Sort Clients by Address
-- **Method:** Angular Sorting Implementation
-- **Description:** Implement sorting functionality for clients by address on the Angular side.
-
-#### Search Clients by Name
-- **Method:** Angular Searching Implementation
-- **Description:** Implement searching functionality for clients by name on the Angular side.
