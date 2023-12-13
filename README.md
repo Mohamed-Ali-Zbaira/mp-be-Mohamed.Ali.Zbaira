@@ -15,9 +15,9 @@ For client-side sorting and searching, implement the following methods in your A
 - **Method:** Angular Sorting Implementation
 - **Description:** Implement sorting functionality for clients by name on the Angular side.
 
-#### Sort Clients by Address
-- **Method:** Angular Sorting Implementation
-- **Description:** Implement sorting functionality for clients by address on the Angular side.
+#### Search Clients by Address
+- **Method:** Angular Searching Implementation
+- **Description:** Implement searching functionality for clients by Address on the Angular side.
 
 #### Search Clients by Name
 - **Method:** Angular Searching Implementation
