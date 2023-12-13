@@ -1,0 +1,29 @@
+Endpoint most-loyal (client le plus fidèle) :
+
+Type de requête : GET
+URL : http://localhost:8080/api/clients/most-loyal
+Envoyez la requête avec Postman.
+Endpoint highest-total-amount (client avec le montant total le plus élevé) :
+
+Type de requête : GET
+URL : http://localhost:8080/api/clients/highest-total-amount
+Envoyez la requête avec Postman.
+Endpoint government-most-clients (gouvernement avec le plus de clients) :
+
+Type de requête : GET
+URL : http://localhost:8080/api/clients/government-most-clients
+Envoyez la requête avec Postman.
+Endpoint by-lastname (clients par nom de famille) :
+
+Type de requête : GET
+URL : http://localhost:8080/api/clients/by-lastname/Doe (Remplacez "Doe" par le nom de famille que vous souhaitez rechercher.)
+Envoyez la requête avec Postman.
+Endpoint by-adresse (clients par adresse) :
+
+Type de requête : GET
+URL : http://localhost:8080/api/clients/by-adresse/123%20Rue%20A (Remplacez "123%20Rue%20A" par l'adresse que vous souhaitez rechercher, n'oubliez pas d'encoder les espaces en %20.)
+Envoyez la requête avec Postman.
+Endpoint by-numero (clients par numéro) :
+
+Type de requête : GET
+URL : http://localhost:8080/api/clients/by-numero/555-1111 (Remplacez "555-1111" par le numéro que vous souhaitez rechercher.)
